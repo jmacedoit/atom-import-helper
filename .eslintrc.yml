@@ -1,0 +1,51 @@
+extends: [seegno]
+
+parserOptions:
+  ecmaFeatures:
+    jsx: true
+
+settings:
+  flowtype:
+    onlyFilesWithFlowAnnotation: true
+
+env:
+  browser: 1
+
+globals:
+  atom: true
+
+plugins: [react, flowtype]
+
+rules:
+  flowtype/boolean-style: error
+  flowtype/define-flow-type: error
+  flowtype/delimiter-dangle: error
+  flowtype/generic-spacing: error
+  flowtype/no-dupe-keys: error
+  flowtype/require-valid-file-annotation: [error, 'always']
+  flowtype/semi: error
+  flowtype/sort-keys: error
+  flowtype/space-after-type-colon: error
+  flowtype/space-before-generic-bracket: error
+  flowtype/union-intersection-spacing: error
+  flowtype/use-flow-type: error
+  id-length: [error, { exceptions: ['x', 'y'] }]
+  jsx-quotes: error
+  keyword-spacing: error
+  new-cap: off
+  no-console: off
+  no-extra-parens: off
+  no-process-exit: off
+  react/jsx-boolean-value: error
+  react/jsx-closing-bracket-location: error
+  react/jsx-curly-spacing: error
+  react/jsx-indent-props: [error, 2]
+  react/jsx-max-props-per-line: error
+  react/jsx-no-duplicate-props: error
+  react/jsx-no-literals: error
+  react/jsx-no-undef: error
+  react/jsx-sort-props: error
+  react/jsx-uses-react: error
+  react/jsx-uses-vars: error
+  react/jsx-wrap-multilines: error
+  semi: error

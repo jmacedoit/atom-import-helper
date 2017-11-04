@@ -1,0 +1,11 @@
+{
+  "atom-text-editor.import-helper.import-helper-priority-1.import-helper-priority-2": {
+    "up": "import-helper:move-up",
+    "down": "import-helper:move-down",
+    "enter": "import-helper:confirm",
+    "escape": "import-helper:leave"
+  },
+  "atom-workspace": {
+    "alt-a": "import-helper:suggest-imports"
+  }
+}

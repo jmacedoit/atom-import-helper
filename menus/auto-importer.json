@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Use import-helper",
+        "command": "import-helper:suggest-imports"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Import helper",
+          "submenu": [
+            {
+              "label": "Suggest",
+              "command": "import-helper:suggest-imports"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
