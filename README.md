@@ -1,6 +1,6 @@
 # Import Helper
 
-**Import Helper** is an atom plugin that helps you adding es6 imports to your javascript code. If you use es6 imports, you might more often than not find yourself repeating this sequence:
+**Import Helper** is an atom plugin that helps you adding es6 imports to your javascript code in an autocomplete fashion. If you use es6 imports, you might more often than not find yourself repeating this sequence:
 
 * You use a function from a library or other file in your project.
 * You realize you have to import this function.
@@ -12,11 +12,11 @@ With **Import Helper** you just have to place the cursor over the function/class
 
 ## Demo
 
-![import-helper](https://user-images.githubusercontent.com/5741969/32411149-a4985fd8-c1cb-11e7-94f2-0dc84725a49d.gif)
+![import-helper](https://user-images.githubusercontent.com/5741969/32411995-14ec4f2c-c1e2-11e7-884b-ea331bbacd93.gif)
 
 ## How it works
 
-**Import Helper** does not analyze file/node modules exports. Instead, it uses existing imports in your project as a base to provide import suggestions. This has some advantages. For instance, you won't have problem getting suggestions when using babel/webpack aliases.  It also has some disadvantages: every new module needs to be imported manually once.
+**Import Helper** does not analyze file/node modules exports. Instead, it uses existing imports in your project as a base to provide import suggestions. This has some advantages. For instance, you won't have problem getting suggestions when using babel/webpack aliases.  It also has some disadvantages: every new module needs to be imported manually at least once.
 
 ## Support and future work
 
