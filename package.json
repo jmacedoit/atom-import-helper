@@ -1,7 +1,7 @@
 {
   "name": "import-helper",
   "main": "./lib/import-helper",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "A utility that helps you adding es6 imports in atom",
   "keywords": [
     "import",
