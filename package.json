@@ -30,6 +30,7 @@
     "bluebird": "3.5.1",
     "commander": "2.11.0",
     "lodash": "4.17.4",
+    "md5": "2.2.1",
     "react": "16.0.0",
     "react-dom": "16.0.0",
     "readdirp": "2.1.0",
